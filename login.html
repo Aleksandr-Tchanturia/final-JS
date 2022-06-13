@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <script src="https://kit.fontawesome.com/a2ff28b80b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/logo.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    
+</head>
+<body>
+   
+    <div class="wrapper login">
+        <div class="conteiner">
+            <div class="col-left">
+                <h2>Welcome</h2>
+                <p>Crete your account</p>
+                <div class="back" title="Back to Home">
+                    <a href="index.html"><i class="fas fa-chevron-left"></i></a>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>Log-in</h2>
+                    <form action="">
+                        <div class="username">
+                            <input class="input-wrapper" type="text" placeholder="Username or Email">
+                        </div>
+
+                        <div class="password">
+                            <input class="input-wrapper" type="password" placeholder="Password">
+                        </div>
+              <!-- aqedan iwyeba saxeli meili da ragacebi -->          
+                        <div class="vizuali">
+                            <input type="checkbox" name="notagree" id="agreecheckbox"> 
+                            <label for="agreecheckbox"> agree terms </label>
+                            <div class="error-text" id="error_notagree"></div>
+                        </div>
+              <!-- aqedan iwyeba saxeli meili da ragacebi -->          
+                        <div class="submit">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/rain.js"></script>
+</body>
+</html>

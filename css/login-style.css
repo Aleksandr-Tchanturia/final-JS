@@ -1,0 +1,164 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+body {
+    background-image: url(../img/cover/barber-shop-in-viet-nam-0-1.jpg);
+    position: relative;
+    max-width: 1800px;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    z-index: 988;
+}
+.conteiner{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 5px #091669;
+            box-shadow: 0 0 5px #091669;
+    z-index: 999;
+}
+.login .col-left,
+.login .col-right{
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.login .col-left{
+    width: 60%;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+            clip-path: polygon(0 0, 0% 100%, 100% 0);
+    background: #054a63;
+}
+.login .col-right{
+    width: 50%;
+    margin-left: -10%;
+}
+@media (max-width:575px){
+    .login .conteiner{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+    .login .col-left,
+    .login .col-right{
+        width: 100%;
+        margin: 0;
+        -webkit-clip-path: none;
+                clip-path: none;
+    }
+    .login .col-right{
+        padding: 30px;
+    }
+}
+.login .conteiner .col-left{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.login .conteiner .col-left h2{
+    font-size: 30px;
+    color: rgb(33, 18, 34);
+    font-weight: 999;
+    font-family: "BPG Boxo-Boxo", sans-serif;
+    background-color: rgb(246, 242, 242);
+}
+.login .conteiner .col-left p{
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    font-family: "BPG Boxo-Boxo", sans-serif;
+    background-color: rgb(250, 244, 244);
+}
+.login .conteiner .col-left .back{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.login .conteiner .col-left .back i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+.login .conteiner .col-left .back:hover{
+    background-color: rgb(11, 11, 11);
+}
+.login .conteiner .col-right .login-form h2{
+    font-size: 20px;
+    font-weight: 888;
+    margin-bottom: 10px;
+    font-family: "BPG Boxo-Boxo", sans-serif;
+    
+}
+.login .conteiner .col-right .login-form form .username{
+    margin-bottom: 10px;
+}
+.input-wrapper{
+    max-width: 200px;
+    width: 100%;
+    height: 45px;
+    color: #3900a2;
+    font-size: 10px;
+    font-weight: 999;
+    border: none;
+    border-bottom: 3px solid rgb(246, 244, 244);
+    outline: none;
+    background-color: #054a63;
+}
+.input-wrapper:focus{
+    border-bottom: 3px solid #181634;
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+.submit input{
+    margin-top: 20px;
+    padding: 10px;
+    color: black;
+    font-family: 899;
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+.submit input:hover{
+    background: #1e404d;
+    color: white;
+    cursor: pointer;
+}

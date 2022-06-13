@@ -1,1 +1,2 @@
-# final-JS
+# Beard-Care
+Beard Care
